@@ -9,28 +9,28 @@
         "title":"Time Line",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/timeline.html"
+          "https://tamimi-dev.github.io/mobapp/timeline.html"
         ]
       },
       {
         "title":"Reported Cases",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/susp_conf.html"
+          "https://tamimi-dev.github.io/mobapp/susp_conf.html"
           ]
        },
       {
         "title":"Fatalities",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/totaldeaths.html"
+          "https://tamimi-dev.github.io/mobapp/totaldeaths.html"
         ]
       },
       {
         "title":"Prediction Table",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/table.html"
+          "https://tamimi-dev.github.io/mobapp/table.html"
         ]
       }
     ]
@@ -45,55 +45,55 @@
         "title":"China VS Worldwide Cases",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/china_nochina.html"
+          "https://tamimi-dev.github.io/mobapp/china_nochina.html"
         ]
       },
 	 {
         "title":"Cases By Country",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/country_ico.html"
+          "https://tamimi-dev.github.io/mobapp/country_ico.html"
         ]
       },
 	  	 {
         "title":"PHEIC",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/meter.html"
+          "https://tamimi-dev.github.io/mobapp/meter.html"
         ]
       },
 	  {
         "title":"Travel Health Notices",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/cdc_t.html"
+          "https://tamimi-dev.github.io/mobapp/cdc_t.html"
         ]
       },
 	        {
         "title":"Cases Worldwide",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/tot_cases_all.html"
+          "https://tamimi-dev.github.io/mobapp/tot_cases_all.html"
         ]
       },
 	   {
         "title":"Cases Worldwide",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/line_and_bar.html"
+          "https://tamimi-dev.github.io/mobapp/line_and_bar.html"
         ]
       },{
         "title":"Trending Tweets",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/tweet.html"
+          "https://tamimi-dev.github.io/mobapp/tweet.html"
         ]
       },
 	  	 {
         "title":"Additional Dashboards",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/dash.html"
+          "https://tamimi-dev.github.io/mobapp/dash.html"
         ]
       }
     ]
@@ -108,7 +108,7 @@
         "title":"3D map",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/rotating_map.html"
+          "https://tamimi-dev.github.io/mobapp/rotating_map.html"
         ]
       }
     ]
@@ -123,7 +123,7 @@
         "title":"About The App",
         "provider":"webview",
         "arguments":[
-          "https://tamimi-dev.github.io/app/about.html"
+          "https://tamimi-dev.github.io/mobapp/about.html"
         ]
       }
     ]
