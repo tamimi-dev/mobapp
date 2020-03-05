@@ -102,7 +102,7 @@ chart.seriesContainer.events.on("down", function() {
 
 
 
-fetch("https://spreadsheets.google.com/feeds/list/1fgjVhzrbqcCOP8Zls00BV--JsIXEenwWmMD2iF8X9VE/o512ru7/public/values?alt=json").then(response => response.json()).then((jsonData) => {
+fetch("https://spreadsheets.google.com/feeds/list/12Lyd3k0PRpe-Ie_LaeJaEPm3FwF3iz1gizAOSprn7l0/otu1nbu/public/values?alt=json").then(response => response.json()).then((jsonData) => {
   const mapData = {}
 
   jsonData.feed.entry.forEach(e => {
