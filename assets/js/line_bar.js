@@ -1,5 +1,5 @@
 
-$.getJSON("https://spreadsheets.google.com/feeds/list/1fgjVhzrbqcCOP8Zls00BV--JsIXEenwWmMD2iF8X9VE/own54tz/public/values?alt=json", data => {
+$.getJSON("https://spreadsheets.google.com/feeds/list/12Lyd3k0PRpe-Ie_LaeJaEPm3FwF3iz1gizAOSprn7l0/ok01ra6/public/values?alt=json", data => {
   var labels1 = [];
   var numbers = [];
    var numbers2 = [];
