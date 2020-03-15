@@ -87,12 +87,12 @@ var hs = polygonSeries.mapPolygons.template.states.create("hover");
 hs.properties.fillOpacity = 1;
 hs.properties.fill = chart.colors.getIndex(0).brighten(-0.5);
 
-
-var graticuleSeries = chart.series.push(new am4maps.GraticuleSeries());
-graticuleSeries.mapLines.template.stroke = am4core.color("#fff");
-graticuleSeries.fitExtent = false;
-graticuleSeries.mapLines.template.strokeOpacity = 0.2;
-graticuleSeries.mapLines.template.stroke = am4core.color("#fff");
+//grid lines
+//var graticuleSeries = chart.series.push(new am4maps.GraticuleSeries());
+//graticuleSeries.mapLines.template.stroke = am4core.color("#fff");
+//graticuleSeries.fitExtent = false;
+//graticuleSeries.mapLines.template.strokeOpacity = 0.2;
+//graticuleSeries.mapLines.template.stroke = am4core.color("#fff");
 
 
 var measelsSeries = chart.series.push(new am4maps.MapPolygonSeries())
