@@ -4,7 +4,7 @@
 var chart = am4core.create("chartdiv", am4maps.MapChart);
 chart.geodata = am4geodata_worldLow;
 
-polygonSeries.exclude = ["AQ"];
+
 
 // Set projection
 chart.projection = new am4maps.projections.Miller();
@@ -57,7 +57,7 @@ template.events.on("out", function(event) {
   }
 })
 
-
+polygonSeries.exclude = ["AQ"];
 
 
 
