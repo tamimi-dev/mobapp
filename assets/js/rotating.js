@@ -1,4 +1,3 @@
-
 // Themes end
 
 // Create map instance
@@ -8,13 +7,13 @@ chart.geodata = am4geodata_worldLow;
 
 
 // Set projection
-chart.projection = new am4maps.projections.Orthographic();
+chart.projection = new am4maps.projections.Projection();
 chart.panBehavior = "rotateLongLat";
 chart.deltaLatitude = -20;
-chart.padding(20, 20, 20, 20);
+//chart.padding(20, 20, 20, 20);
 
-chart.backgroundSeries.mapPolygons.template.polygon.fillOpacity = 0.1;
-chart.backgroundSeries.mapPolygons.template.polygon.fill = am4core.color("#ffffff");
+chart.backgroundSeries.mapPolygons.template.polygon.fillOpacity = 1;
+chart.backgroundSeries.mapPolygons.template.polygon.fill = am4core.color("#303032");
 
 chart.deltaLongitude = 20;
 chart.deltaLatitude = -20;
@@ -61,6 +60,29 @@ template.events.on("out", function(event) {
 
 
 
+
+chart.zoomControl = new am4maps.ZoomControl();
+
+var homeButton = new am4core.Button();
+homeButton.events.on("hit", function(){
+  chart.goHome();
+});
+
+homeButton.icon = new am4core.Sprite();
+homeButton.padding(7, 5, 7, 5);
+homeButton.width = 30;
+homeButton.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+homeButton.marginBottom = 10;
+homeButton.parent = chart.zoomControl;
+homeButton.insertBefore(chart.zoomControl.plusButton);
+
+
+
+
+
+
+
+
 var hs = polygonSeries.mapPolygons.template.states.create("hover");
 hs.properties.fillOpacity = 1;
 hs.properties.fill = chart.colors.getIndex(0).brighten(-0.5);
@@ -86,19 +108,6 @@ measelTemplate.strokeOpacity = 0;
 measelTemplate.fillOpacity = 0.75;
 measelTemplate.tooltipPosition = "fixed";
 
-let animation;
-setTimeout(function() {
-  animation = chart.animate({
-    property: "deltaLongitude",
-    to: 100000
-  }, 20000000);
-}, 3000)
-
-chart.seriesContainer.events.on("down", function() {
-  if (animation) {
-    animation.stop();
-  }
-})
 
 
 
@@ -130,7 +139,7 @@ const handleMapData = (mapData) => {
     } else {
       mapPolygon.tooltipText = mapPolygon.dataItem.dataContext.name + ": no data";
       mapPolygon.fillOpacity = 0.9;
-      mapPolygon.fill = am4core.color("#915660");
+      mapPolygon.fill = am4core.color("#569162");
     }
 
   })
