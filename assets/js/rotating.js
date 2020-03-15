@@ -1,5 +1,5 @@
 // Themes end
-
+am4core.useTheme(am4themes_dark);
 // Create map instance
 var chart = am4core.create("chartdiv", am4maps.MapChart);
 chart.geodata = am4geodata_worldLow;
