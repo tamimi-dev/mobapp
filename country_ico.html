@@ -21,6 +21,26 @@
 	
 </head>
 <body class="bg-triangles">
+	
+	 <script>
+       $(window).bind("load", function () {
+        $('#work-in-progress').fadeOut(100);
+    });
+      </script>
+
+
+      <div id="work-in-progress">
+   <div class="preloader">
+	    <div class="preloader__wrap">
+		    <div class="circle-pulse">
+                <div class="circle-pulse__1"></div>
+                <div class="circle-pulse__2"></div>
+            </div>
+		    <div class="preloader__progress"><span></span></div>
+		</div>
+	</div>
+      </div>
+	
     <main class="main">
 	    <div class="container gutter-top">
 		    <div class="row sticky-parent">
@@ -85,7 +105,7 @@ $('a[data-toggle="tooltip"]').tooltip({
 	<script src="https://tamimi-dev.github.io/mobapp/assets/js/plugins.js"></script>
     <script src="https://tamimi-dev.github.io/mobapp/assets/js/common.js"></script>
 	<script src="https://tamimi-dev.github.io/mobapp/assets/js/icojs.js"></script> 
-
+ <script src=".https://tamimi-dev.github.io/mobapp/assets/js/progressbar.min.js"></script>
 </body>
 
 </html>
