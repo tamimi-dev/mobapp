@@ -4,6 +4,69 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap");
 
+
+
+/* datatable */
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 10px; /* e.g. change 8x to 4px here */
+}
+
+.dt_case {
+  color: #d67f29;
+ 
+}
+
+.dt_dth {
+  color: #fc3944;
+ 
+}
+
+.dt_chc {
+  color: #fab978;
+ 
+}
+
+.dt_cdth {
+  color: #ff969c;
+ 
+}
+
+.dt_recov {
+  color: #00a700;
+ 
+}
+
+.dt_ser {
+  color: #c107ff;
+ 
+}
+
+
+
+
+/* Clock */
+
+@font-face {
+    font-family: 'ticking_timebomb_bbregular';
+    src: url('fonts/clock-webfont.woff') format('woff2'),
+         url('fonts/clock-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clock {
+ font-size:1.5rem;
+ font-family:ticking_timebomb_bbregular,serif;
+ margin-bottom:.9rem;
+ position:relative;
+}
+
+
+
+
+
+
+
 #chartdiv {
   width: 100%;
   height: 500px;
