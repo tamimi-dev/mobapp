@@ -17,7 +17,8 @@
     <!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="https://tamimi-dev.github.io/mobapp/assets/styles/style.css">
     <link rel="stylesheet" type="text/css" href="https://tamimi-dev.github.io/mobapp/assets/styles/style-dark.css">
-
+<link rel="stylesheet" type="text/css" href="../mobapp/assets/js/datatable/css/dataTables.bootstrap4.min.css"/>
+<link rel="stylesheet" type="text/css" href="../mobapp/assets/js/datatable/css/responsive.bootstrap4.min.css"/>
 	
 </head>
 <body class="bg-triangles">
@@ -77,8 +78,50 @@ $('a[data-toggle="tooltip"]').tooltip({
 <div class="box-inner box-inner--rounded">
 
  <div class="col-12 col-lg-12">
- <h2 class="title title--h3"><img class="title-icon" src="https://tamimi-dev.github.io/mobapp/assets/icons/r.png" alt="">Confirmed Cases and Deaths</h2>		
-<div id= "ico_cntry"></div>
+ <h2 class="title title--h3"><img class="title-icon" src="https://tamimi-dev.github.io/mobapp/assets/icons/r.png" alt="">Per Country Stats</h2>		
+
+	  <table id="globe" class="table_datatable" align="center">
+      
+
+ <thead>
+            <tr>
+
+                  <th>-</th>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>Today's Cases</th>
+                <th>Deaths</th>
+                <th>Today's Deaths</th>
+                <th>Recovered</th>
+                <th>Serious</th>
+            </tr>
+        </thead>
+
+      <tfoot>
+
+                    <th>-</th>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>Today's Cases</th>
+                <th>Deaths</th>
+                <th>Today's Deaths</th>
+                <th>Recovered</th>
+                <th>Serious</th>
+
+  </tfoot>
+
+
+ <tbody>
+  
+  </tbody>
+
+
+
+</table>
+	 
+	 
+	 
+	 <!-- <div id= "ico_cntry"></div> -->
 		
 		
 
@@ -104,7 +147,21 @@ $('a[data-toggle="tooltip"]').tooltip({
 	<script src="https://tamimi-dev.github.io/mobapp/assets/js/jquery-3.4.1.min.js"></script>
 	<script src="https://tamimi-dev.github.io/mobapp/assets/js/plugins.js"></script>
     <script src="https://tamimi-dev.github.io/mobapp/assets/js/common.js"></script>
-	<script src="https://tamimi-dev.github.io/mobapp/assets/js/icojs.js"></script> 
+	
+	
+<script type="text/javascript" src="../mobapp/assets/js/datatable/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="../mobapp/assets/js/datatable/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" src="../mobapp/assets/js/datatable/js/dataTables.responsive.min.js"></script>
+<script type="text/javascript" src="../mobapp/assets/js/datatable/js/responsive.bootstrap4.min.js"></script>
+
+	 
+		    
+		   <script src="../mobapp/assets/js/web/dt_s.js"></script> 
+		    
+	
+	
+	
+	<!-- <script src="https://tamimi-dev.github.io/mobapp/assets/js/icojs.js"></script>  -->
  <script src=".https://tamimi-dev.github.io/mobapp/assets/js/progressbar.min.js"></script>
 </body>
 
