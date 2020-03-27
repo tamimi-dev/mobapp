@@ -41,6 +41,17 @@ table.dataTable tbody th, table.dataTable tbody td {
  
 }
 
+.dt_cfr {
+  color: #0056a7;
+ 
+}
+
+.dt_rec_rate {
+  color: #0056a7;
+ 
+}
+
+
 
 
 
@@ -446,11 +457,11 @@ ul li {
   padding:5px;
 }
 
-
+/*
 ul li:hover {
   background-color:#821d1d;
 }
-
+*/
 .user, .tweet, .timePosted {
   float:bottom;
 }
