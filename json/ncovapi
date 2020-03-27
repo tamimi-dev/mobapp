@@ -25,13 +25,6 @@
         "arguments":[
           "https://tamimi-dev.github.io/mobapp/totaldeaths.html"
         ]
-      },
-      {
-        "title":"Prediction Table",
-        "provider":"webview",
-        "arguments":[
-          "https://tamimi-dev.github.io/mobapp/table.html"
-        ]
       }
     ]
   },
