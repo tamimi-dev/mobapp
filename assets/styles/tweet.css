@@ -1,4 +1,116 @@
 
+/* tweets css start */
+
+
+
+
+/* 
+h2 {
+  clear:both;
+}
+*/
+
+p, a {
+  font-size:10pt;
+  position: relative;
+  color:#c4c4c4;
+}
+
+
+a, a:visited {
+  color:#427fed;
+}
+/* 
+a:hover {
+  color:#82afff;
+}
+*/
+
+ul li {
+ position: relative;
+  left: -7%; 
+  border-radius: 6px;
+  list-style:none;
+  overflow:hidden;
+  border:0.5px solid #4a4a4d;
+  margin:4px;
+  padding:5px;
+}
+
+/*
 ul li:hover {
   background-color:#821d1d;
 }
+*/
+.user, .tweet, .timePosted {
+  float:bottom;
+}
+
+
+/*
+.user {
+  width:25%;
+}
+.tweet {
+  width:100%;
+}
+*/
+.timePosted {
+  width:15%;
+}
+
+.user {
+  clear:left;
+}
+
+.user a {
+ width: 100px;
+}
+
+.user span span {
+  width:100px;
+  display:block;
+  margin-top:10px;
+}
+
+.user img, .user a > span {
+  float:left;
+}
+
+.user div {
+ clear: left; 
+}
+
+.interact {
+   display: none;
+  float:left;
+  width:10%;
+  margin-top:-7px;
+}
+
+.interact a {
+  margin-left:5px;
+  float:left;
+}
+
+.user a > span {
+  margin-left:10px;
+}
+
+
+
+#linkage {
+  position:fixed;
+  top:0px;
+  right:0px;
+  background-color:#3d3d3d;
+  color:#ffffff;
+  text-decoration:none;
+  padding:5px;
+  width:10%;
+  font-family:arial;
+}
+
+
+ /* tweets css end */
+
